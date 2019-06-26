@@ -1,0 +1,2 @@
+# gitattributes-js
+.gitattributes parser
