@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": ".gitattributes parser",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +14,7 @@
     "url": "git+ssh://git@github.com/gyugyu/gitattributes-js.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yusuke YAGYU",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gyugyu/gitattributes-js/issues"
