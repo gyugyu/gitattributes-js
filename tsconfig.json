@@ -2,10 +2,17 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
+    "lib": ["es2015"],
     "rootDir": "./src",
     "outDir": "./lib",
     "declaration": true,
     "strict": true,
     "esModuleInterop": false
-  }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "src/**/*.test.ts"
+  ]
 }
